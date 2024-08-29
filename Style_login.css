@@ -1,0 +1,61 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-icon {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 25px;
+        cursor: pointer;
+    }
+    .menu-icon div {
+        height: 4px;
+        background-color: #333;
+        border-radius: 2px;
+    }
+    /* below i adjust the size of heading  */
+    h1 {
+        margin-bottom: 250px;
+        text-align: center;
+        size-adjust: ;
+        font-size: 28px;
+        color: #333;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 15px;
+        border: 1px solid skyblue;
+        border-radius: 5px;
+    }
+    input {
+        margin: 5px 0px;
+        height: 35px;
+        padding: 7px;
+    }
+    button {
+        height: 35px;
+        margin: 5px 0px;
+        background-color: skyblue;
+        border: none;
+        border-radius: 5px;
+        color: #333;
+    }
+    button:hover {
+        background-color: #333;
+        color: skyblue;
+    }

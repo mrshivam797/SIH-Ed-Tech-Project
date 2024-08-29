@@ -1,0 +1,87 @@
+/* Reset some basic styles */
+body, h1, p, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Styling for the container to use Flexbox */
+.container {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    background: linear-gradient(to right, #dee1e4, #dee1e4);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the text section */
+.text-section {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.text-section h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.text-section p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Styling for the form section */
+.form-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(135deg, #0000ff, #8a2be2);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+    color: skyblue;
+}
